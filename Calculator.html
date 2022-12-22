@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>calculator</title>
+<style> 
+*{margin:0px;
+padding:0px;
+}
+
+h1{ text-align: center;}
+.card{
+margin:0px auto;
+max-width:370px;
+text-align:center;
+box-shadow: 0px 5px 8px 0px black;
+transition:0.3s;
+margin-top:5px;
+font-size:0px;
+}
+.card:hover{
+box-shadow:0px 15px 16px 0px black;
+}
+.input-box #head{
+
+padding:0px 5px;
+width:305px;
+height: 110px;
+text-align:right;
+font-size : 50px;
+letter-spacing:3px;
+font-weight:bold;
+font-style:italic;
+}
+
+.btn{ width:80px;
+height:85px;
+background-color: black;
+color:white;
+font-size:25px;
+font-style:italic;
+font-weight:bold;
+
+}
+.btn-style{ background-color:rgb(100,100,200)
+}
+.btn:hover{
+background-color: pink;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>Calculator</h1>
+<div class='card'> 
+
+	<div class='input-box'> 
+
+<input input-type='text' id='head' maxlength='10'> </input>
+ 	</div>
+
+<div>
+<input type='button' value='C' class='btn'> </input>
+<input type='button' value='+/-' class='btn'> </input>
+<input type='button' value='%' class='btn'> </input>
+<input type='button' value='/' class='btn btn-style'> </input>
+</div>
+<div>
+<input type='button' value='7' class='btn'> </input>
+<input type='button' value='8' class='btn'> </input>
+<input type='button' value='9' class='btn '> </input>
+<input type='button' value='X' class='btn btn-style'> </input>
+</div>
+<div>
+<input type='button' value='4' class='btn'> </input>
+<input type='button' value='5' class='btn'> </input>
+<input type='button' value='6' class='btn'> </input>
+<input type='button' value='-' class='btn btn-style'> </input>
+</div>
+<div>
+<input type='button' value='1' class='btn'> </input>
+<input type='button' value='2' class='btn'> </input>
+<input type='button' value='3' class='btn'> </input>
+<input type='button' value='+' class='btn btn-style'> </input>
+</div>
+<div>
+<input type='button' value='0' class='btn'> </input>
+<input type='button' value='.' class='btn'> </input>
+<input type='button' value='DEL' class='btn'> </input>
+<input type='button' value='=' class='btn' style='background-color:orange;'> </input>
+</div>
+
+
+
+</div>
+
+
+
+</body>
+</html>
